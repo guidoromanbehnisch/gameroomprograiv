@@ -1,0 +1,92 @@
+/* ===== CONTENEDOR PRINCIPAL DEL NAV ===== */
+.nav{
+
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54); 
+    /* crea un fondo degradado oscuro */
+
+    padding: 15px 30px; 
+    /* espacio interno arriba/abajo y costados */
+
+    display: flex; 
+    /* acomoda los elementos en fila */
+
+    justify-content: center; 
+    /* centra horizontalmente los items */
+
+    gap: 20px; 
+    /* separacion entre botones */
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3); 
+    /* agrega sombra debajo del navbar */
+
+    border-bottom: 2px solid #4f8cff; 
+    /* linea azul debajo del header */
+}
+
+
+/* ===== CADA ITEM DE LA LISTA ===== */
+.nav-item{
+
+    list-style: none; 
+    /* elimina los puntos de la lista */
+}
+
+
+/* ===== LINKS DEL NAVBAR ===== */
+.nav-link{
+
+    color: white !important; 
+    /* color blanco del texto */
+
+    font-size: 1.1rem; 
+    /* tamaño del texto */
+
+    font-weight: bold; 
+    /* texto en negrita */
+
+    padding: 10px 20px; 
+    /* espacio interno del boton */
+
+    border-radius: 12px; 
+    /* bordes redondeados */
+
+    transition: all 0.3s ease; 
+    /* suaviza animaciones */
+
+    text-transform: uppercase; 
+    /* convierte el texto en mayusculas */
+
+    letter-spacing: 1px; 
+    /* separa ligeramente las letras */
+}
+
+
+/* ===== EFECTO CUANDO PASAS EL MOUSE ===== */
+.nav-link:hover{
+
+    background-color: #4f8cff; 
+    /* cambia el fondo a azul */
+
+    color: white !important; 
+    /* mantiene el texto blanco */
+
+    transform: translateY(-3px); 
+    /* mueve el boton un poco hacia arriba */
+
+    box-shadow: 0px 5px 12px rgba(79,140,255,0.5); 
+    /* agrega sombra azul */
+}
+
+
+/* ===== LINK ACTIVO ===== */
+.nav-link.active{
+
+    background-color: #4f8cff; 
+    /* fondo azul para la pagina activa */
+
+    color: white !important; 
+    /* texto blanco */
+
+    box-shadow: 0px 4px 10px rgba(79,140,255,0.4); 
+    /* sombra azul */
+}

@@ -1,0 +1,150 @@
+/* ===== TITULO PRINCIPAL ===== */
+.title{
+
+    text-align: center; /* centra el texto */
+
+    font-size: 3rem; /* tamaño grande del titulo */
+
+    margin-top: 30px; /* espacio arriba */
+
+    margin-bottom: 30px; /* espacio abajo */
+
+    color: #ffffff; /* color blanco */
+
+    font-weight: bold; /* pone el texto en negrita */
+
+    letter-spacing: 2px; /* separa un poco las letras */
+}
+
+
+/* ===== CARD DEL PERFIL ===== */
+.myprofile{
+
+    width: 420px; /* ancho fijo de la card */
+
+    margin: 0 auto; /* centra horizontalmente */
+
+    padding: 30px; /* espacio interno */
+
+    border-radius: 20px; /* bordes redondeados */
+
+    background: #1e1e2f; /* color de fondo */
+
+    color: white; /* color del texto */
+
+    text-align: center; /* centra el contenido */
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.4); /* sombra */
+
+    transition: transform 0.3s ease; /* suaviza animaciones */
+}
+
+
+/* ===== EFECTO HOVER ===== */
+.myprofile:hover{
+
+    transform: translateY(-5px); /* mueve la card un poco hacia arriba */
+}
+
+
+/* ===== IMAGEN DEL PERFIL ===== */
+.myprofile img{
+
+    width: 170px; /* ancho de la imagen */
+
+    height: 170px; /* alto de la imagen */
+
+    border-radius: 50%; /* convierte la imagen en circulo */
+
+    object-fit: cover; /* evita deformacion de la imagen */
+
+    border: 5px solid #4f8cff; /* borde azul */
+
+    margin-bottom: 20px; /* espacio debajo de la imagen */
+}
+
+
+/* ===== NOMBRE DEL PERFIL ===== */
+.myprofile h2{
+
+    font-size: 2rem; /* tamaño del nombre */
+
+    margin-bottom: 15px; /* espacio debajo */
+
+    color: #4f8cff; /* color azul */
+}
+
+
+/* ===== PARRAFOS DEL PERFIL ===== */
+.myprofile p{
+
+    font-size: 1rem; /* tamaño del texto */
+
+    margin: 10px 0; /* espacio arriba y abajo */
+
+    line-height: 1.5; /* separacion entre lineas */
+}
+
+
+/* ===== MENSAJE DE ERROR ===== */
+.error{
+
+    width: fit-content; /* el ancho se adapta al contenido */
+
+    margin: 20px auto; /* centra horizontalmente */
+
+    padding: 12px 20px; /* espacio interno */
+
+    background-color: #ff4d4d; /* fondo rojo */
+
+    color: white; /* texto blanco */
+
+    border-radius: 10px; /* bordes redondeados */
+
+    font-weight: bold; /* texto en negrita */
+}
+
+
+/* ===== CARD DEL JUEGO ===== */
+.mygame{
+
+    width: 80%; /* ocupa el 80% del ancho */
+
+    max-width: 900px; /* ancho maximo */
+
+    margin: 50px auto; /* separacion y centrado */
+
+    padding: 35px; /* espacio interno */
+
+    border-radius: 20px; /* bordes redondeados */
+
+    background: linear-gradient(135deg, #4f8cff, #6f5cff); /* fondo degradado */
+
+    color: white; /* texto blanco */
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.3); /* sombra */
+}
+
+
+/* ===== TITULO DEL JUEGO ===== */
+.mygame h2{
+
+    text-align: center; /* centra el titulo */
+
+    font-size: 2.2rem; /* tamaño del titulo */
+
+    margin-bottom: 20px; /* espacio debajo */
+
+    font-weight: bold; /* negrita */
+}
+
+
+/* ===== TEXTO DEL JUEGO ===== */
+.mygame p{
+
+    font-size: 1.1rem; /* tamaño del texto */
+
+    line-height: 1.8; /* separacion entre lineas */
+
+    text-align: justify; 
+}
