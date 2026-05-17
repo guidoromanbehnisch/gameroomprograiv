@@ -1,0 +1,39 @@
+<h1 class="title">Mi Perfil</h1>
+@if(loading()){
+    <p>loading profile...</p>
+}
+@if(error()){
+    <p class="error">{{error() }}</p>
+}
+
+@if(!loading() && !error())
+{
+    <div class="myprofile">
+        <img [src]="myGithub()?.avatar_url">
+
+        <h2>{{ myGithub()?.name }}</h2>
+
+        <p>{{ myGithub()?.bio }}</p>
+
+        <p>Repos: {{ myGithub()?.public_repos }}</p>
+
+        <p>Followers: {{ myGithub()?.followers }}</p>
+
+        <p>Following: {{ myGithub()?.following }}</p>
+    </div>
+}
+
+<div class="mygame">
+    <h2> ADIVINA LA BANDERA</h2>
+    <p>El juego consiste en adivinar a qué país pertenece una bandera mostrada en pantalla.
+        En cada ronda:
+        aparece una bandera aleatoria
+        el jugador tiene 4 opciones posibles
+        solo una es correcta
+    </p>
+</div>
+
+<div class="rulesmygame">
+    <h2> REGLAS DEL JUEGO</h2>
+    <p>El jugador deberá observar la bandera y seleccionar la respuesta correcta antes de que el tiempo se termine. Cada respuesta correcta sumará puntos y permitirá avanzar a una nueva ronda con otra bandera diferente. En cambio, si el jugador selecciona una respuesta incorrecta o el temporizador llega a cero antes de responder, la partida finalizará automáticamente.</p>
+</div>
