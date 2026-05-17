@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single&display=swap');
+
+
+
+
 /* ===== CONTENEDOR PRINCIPAL DEL NAV ===== */
 .nav{
 
@@ -21,6 +26,9 @@
 
     border-bottom: 2px solid #4f8cff; 
     /* linea azul debajo del header */
+
+        
+    font-family: 'Bitcount Grid Single', sans-serif;
 }
 
 

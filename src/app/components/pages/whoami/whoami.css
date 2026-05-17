@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single&display=swap');
+
 /* ===== TITULO PRINCIPAL ===== */
 .title{
 
@@ -14,6 +16,8 @@
     font-weight: bold; /* pone el texto en negrita */
 
     letter-spacing: 2px; /* separa un poco las letras */
+    
+    font-family: 'Bitcount Grid Single', sans-serif;
 }
 
 
@@ -37,6 +41,8 @@
     box-shadow: 0px 8px 25px rgba(0,0,0,0.4); /* sombra */
 
     transition: transform 0.3s ease; /* suaviza animaciones */
+    
+    font-family: 'Bitcount Grid Single', sans-serif;
 }
 
 
@@ -66,6 +72,7 @@
 
 /* ===== NOMBRE DEL PERFIL ===== */
 .myprofile h2{
+    font-family: 'Bitcount Grid Single', sans-serif;
 
     font-size: 2rem; /* tamaño del nombre */
 
@@ -77,6 +84,7 @@
 
 /* ===== PARRAFOS DEL PERFIL ===== */
 .myprofile p{
+    font-family: 'Bitcount Grid Single', sans-serif;
 
     font-size: 1rem; /* tamaño del texto */
 
@@ -102,6 +110,8 @@
     border-radius: 10px; /* bordes redondeados */
 
     font-weight: bold; /* texto en negrita */
+
+    font-family: 'Bitcount Grid Single', sans-serif;
 }
 
 
@@ -123,6 +133,8 @@
     color: white; /* texto blanco */
 
     box-shadow: 0px 8px 25px rgba(0,0,0,0.3); /* sombra */
+
+
 }
 
 
@@ -136,6 +148,8 @@
     margin-bottom: 20px; /* espacio debajo */
 
     font-weight: bold; /* negrita */
+
+    font-family: 'Bitcount Grid Single', sans-serif;
 }
 
 
@@ -147,4 +161,63 @@
     line-height: 1.8; /* separacion entre lineas */
 
     text-align: justify; 
+
+    font-family: 'Bitcount Grid Single', sans-serif;
+}
+
+.rulesmygame{
+
+    width: 80%; /* ocupa el 80% del ancho */
+
+    max-width: 900px; /* ancho maximo */
+
+    margin: 50px auto; /* separacion y centrado */
+
+    padding: 35px; /* espacio interno */
+
+    border-radius: 20px; /* bordes redondeados */
+
+    background: linear-gradient(135deg, #4f8cff, #6f5cff); /* fondo degradado */
+
+    color: white; /* texto blanco */
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.3); /* sombra */
+
+
+}
+
+.rulesmygame h2{
+
+    text-align: center; /* centra el titulo */
+
+    font-size: 2.2rem; /* tamaño del titulo */
+
+    margin-bottom: 20px; /* espacio debajo */
+
+    font-weight: bold; /* negrita */
+
+    font-family: 'Bitcount Grid Single', sans-serif;
+}
+
+
+/* ===== TEXTO DEL JUEGO ===== */
+.rulesmygame p{
+
+    font-size: 1.1rem; /* tamaño del texto */
+
+    line-height: 1.8; /* separacion entre lineas */
+
+    text-align: justify; 
+
+    font-family: 'Bitcount Grid Single', sans-serif;
+}
+
+.mygame:hover{
+
+    transform: translateY(-5px); /* mueve la card un poco hacia arriba */
+}
+
+.rulesmygame:hover{
+
+    transform: translateY(-5px); /* mueve la card un poco hacia arriba */
 }
