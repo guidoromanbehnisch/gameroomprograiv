@@ -1,59 +1,28 @@
-# Gameroom
+# GAMEROOM BEHNISCH GUIDO ROMAN 
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
 
-## Development server
+# DESCRIPCIÓN DEL SRPING 1
 
-To start a local development server, run:
+En este primer sprint se desarrolló la estructura inicial de la aplicación utilizando Angular. Se configuró la navegación principal mediante rutas, se creó el layout base de la aplicación con header y footer reutilizables y se implementaron distintas páginas principales como Home, Login, Register y Who Am I.
 
-```bash
-ng serve
-```
+Además, se integró consumo de APIs utilizando HttpClient y signals para manejar estados reactivos. En la sección “Who Am I” se consume la API de GitHub para mostrar información dinámica del perfil del desarrollador.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+También se diseñó la idea principal del juego “Adivina la Bandera”, definiendo sus reglas, funcionamiento y lógica general. 
 
-## Code scaffolding
+Durante este sprint también se trabajó en el diseño visual de la aplicación utilizando Bootstrap y CSS personalizado para lograr una interfaz moderna, responsive y visualmente atractiva.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+# Tecnologías utilizadas
+    Angular 21
+    TypeScript
+    HTML5
+    CSS3
+    Bootstrap
+    Signals
+    HttpClient
+    GitHub API
+    Vercel
+    Git & GitHub
 
-```bash
-ng generate component component-name
-```
+# Deploy
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+La aplicación se encuentra deployada utilizando Vercel, permitiendo que el proyecto pueda ejecutarse y visualizarse online sin necesidad de correrlo localmente. Además, el repositorio está vinculado con GitHub, por lo que cada actualización enviada a la rama principal genera automáticamente un nuevo deploy de la aplicación.
